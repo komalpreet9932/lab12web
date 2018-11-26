@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    height:6000px;
+
+}
+.menu
+{
+    background-color: goldenrod;
+    color: black;
+    text-align:center;
+    position:fixed;
+    top:0px;
+    width:100%;
+}
+.big-box
+{
+    background-color: blue;
+    padding:60px;
+    margin-left:80px;
+    height:300px;
+    margin-top:100px;
+    width:350px;
+    position: absolute;
+    z-index:-3;
+
+}
+.small-box
+
+{
+    background-color: red;
+    height:150px;
+    width:225px;
+    margin-left: 140px;
+    
+    padding:60px;
+    text-align: center;
+    padding-bottom: 40px;
+     margin-top:180px;
+    position: absolute;
+    margin-bottom: 120px;
+    z-index:-3;
+}
+p{
+    color:white;
+    line-height: 30px;
+    text-align: center;
+    font-style: italic;
+}
+    
+
+a{
+display: block;
+line-height: 50px;
+font-style: italic;
+}
